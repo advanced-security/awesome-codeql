@@ -18,6 +18,7 @@
 
 ## CodeQL Query Suites
 - [Only Critical Queries sample .qls](https://github.com/zbazztian/only-critical-queries/blob/main/.github/critical-alternative.qls)
+- [OWASP Top 10 CWE Only .qls](https://github.com/securingdev/codeql-query-suites/blob/main/.github/configurations/owasp-top-10.qls)
 - [CodeQL per Suite Query list](https://github.com/github/codeql/actions/workflows/query-list.yml?query=branch%3Acodeql-cli%2Flatest) -  download the attached `code-scanning-query-list.csv` artifact. 
 
 ## CodeQL Troubleshooting
