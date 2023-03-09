@@ -8,6 +8,7 @@
 - [grab_ql](https://github.com/advanced-security/grab_ql) - get CLI, libraries, IDE, extension
 
 
+
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
@@ -28,13 +29,13 @@
 
 ## Documentation
 - [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
-- [CI Integration Pipeline Samples](https://github.com/kllund/sample-pipeline-files)
 
-## Open Source Samples
 
-### Mapping a Custom Framework
+## CodeQL Samples
 
-- [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql)
+- [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL inside a container sample
+- [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - CI Integration Pipeline Samples
+- [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
 
 
 ## Contribute
