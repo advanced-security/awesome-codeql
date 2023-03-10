@@ -26,15 +26,14 @@
 - [GitHub SARIF Upload Troubleshooting](https://github.com/advanced-security/advanced-security-material/blob/main/troubleshooting/sarif-upload/troubleshooting.md)
 - [CodeQL Coding Standards - Hazard and risk analysis](https://github.com/github/codeql-coding-standards/blob/main/docs/user_manual.md#hazard-and-risk-analysis)
 
-## SARIF Tools
+## CodeQL Results
 - [filter-sarif](https://github.com/advanced-security/filter-sarif) - patterns to remove alerts SARIF
 
-## Documentation
+## CodeQL Documentation
 - [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
 
 
 ## CodeQL Samples
-
 - [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL inside a container sample
 - [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - CI Integration Pipeline Samples
 - [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
