@@ -24,6 +24,7 @@
 ## CodeQL Troubleshooting
 - [CodeQL Build Failure Troubleshooting](https://github.com/advanced-security/advanced-security-material/tree/main/troubleshooting/codeql-builds)
 - [GitHub SARIF Upload Troubleshooting](https://github.com/advanced-security/advanced-security-material/blob/main/troubleshooting/sarif-upload/troubleshooting.md)
+- [CodeQL Coding Standards - Hazard and risk analysis](https://github.com/github/codeql-coding-standards/blob/main/docs/user_manual.md#hazard-and-risk-analysis)
 
 ## SARIF Tools
 - [filter-sarif](https://github.com/advanced-security/filter-sarif) - patterns to remove alerts SARIF
