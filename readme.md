@@ -29,14 +29,21 @@
 ## CodeQL Results
 - [filter-sarif](https://github.com/advanced-security/filter-sarif) - patterns to remove alerts SARIF
 
-## CodeQL Documentation
-- [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
-
-
 ## CodeQL Samples
 - [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL inside a container sample
 - [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - CI Integration Pipeline Samples
 - [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
+
+## CodeQL Configuration Documentation
+- [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
+
+## CodeQL Query Writing Documentation
+- [How to write CodeQL Queries](https://codeql.github.com/docs/writing-codeql-queries)
+- [CodeQL Language Guide](https://codeql.github.com/docs/codeql-language-guides)
+- [QL Language reference](https://codeql.github.com/docs/ql-language-reference)
+- [CodeQL Standard Libraries](https://codeql.github.com/codeql-standard-libraries)
+- [CodeQL Query Help] (https://codeql.github.com/codeql-query-help)
+- [Full CodeQL Documentation](https://codeql.github.com/docs/)
 
 
 ## Contribute
