@@ -36,13 +36,17 @@
 - [codeql-debug](https://github.com/zbazztian/codeql-debug) - Add this action to an existing CodeQL analysis workflow to generate an html report
 - [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning
 
+## CodeQL SARIF 
+- [Microsoft SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer) - Visual Studio Static Analysis Results Interchange Format (SARIF) log file viewer
+- [SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=MS-SarifVSCode.sarif-viewer) - Adds support for viewing SARIF logs in Visual Studio Code
+- [psastras/sarif-rs-sarif-fmt](https://github.com/psastras/sarif-rs/tree/main/sarif-fmt) - This crate provides a command line tool to pretty print SARIF files to easy human readable output.
+
 ## CodeQL Containers
 - [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL Docker image
 - [codeql-container](https://github.com/microsoft/codeql-container) - Prepackaged and precompiled github codeql container for rapid analysis, deployment and development.
 
 ## CodeQL Enforcement
 - [advanced-security-enforcer](https://github.com/zkoppert/advanced-security-enforcer) - A GitHub action for organizations that enables advanced security code scanning on all new repos
-
 
 ## CodeQL Samples
 - [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
