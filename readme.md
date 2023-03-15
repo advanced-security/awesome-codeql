@@ -3,11 +3,10 @@
 > A curated list of CodeQL resources.
 
 ## CodeQL Installers and  CLI Tooling
-- [gh-codeql](https://github.com/github/gh-codeql) - gh cli extension
-- [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan)
-- [grab_ql](https://github.com/advanced-security/grab_ql) - get CLI, libraries, IDE, extension
-
-
+- [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
+- [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan) - GH CLI CodeQL Scan Extension
+- [grab_ql](https://github.com/advanced-security/grab_ql) - Grab some/all of CodeQL CLI binary, QL library, VSCode starter workspace, VSCode and VSCode QL extension
+- [codeql-anywhere](https://github.com/david-wiggs/codeql-anywhere) - Put the power of CodeQL in your pocket, take it with you to any CI 🚀
 
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 
@@ -26,12 +25,27 @@
 - [GitHub SARIF Upload Troubleshooting](https://github.com/advanced-security/advanced-security-material/blob/main/troubleshooting/sarif-upload/troubleshooting.md)
 - [CodeQL Coding Standards - Hazard and risk analysis](https://github.com/github/codeql-coding-standards/blob/main/docs/user_manual.md#hazard-and-risk-analysis)
 
-## CodeQL Results
-- [filter-sarif](https://github.com/advanced-security/filter-sarif) - patterns to remove alerts SARIF
+## CodeQL Actions Samples
+- [parallel-code-scanning](https://github.com/dassencio/parallel-code-scanning) - An example of a GitHub Actions workflow showing how code scanning with CodeQL can be parallelized on monorepos.
+- [multi-lang-monorepo](https://github.com/thedave42/multi-lang-monorepo) - A repo that demonstrates using an Actions workflow Job matrix to run parallel CodeQL scans on applications in a monorepo.
+
+## CodeQL Actions Helpers
+- [set-codeql-language-matrix](https://github.com/advanced-security/set-codeql-language-matrix) - Automatically set the CodeQL matrix job using the languages in your repository.
+- [filter-sarif](https://github.com/advanced-security/filter-sarif) - GitHub Action for filtering Code Scanning alerts by path and id
+- [edit-sarif](https://github.com/aegilops/edit_sarif/) - edit SARIF file to add tags
+- [codeql-debug](https://github.com/zbazztian/codeql-debug) - Add this action to an existing CodeQL analysis workflow to generate an html report
+- [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning
+
+## CodeQL Containers
+- [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL Docker image
+- [codeql-container](https://github.com/microsoft/codeql-container) - Prepackaged and precompiled github codeql container for rapid analysis, deployment and development.
+
+## CodeQL Enforcement
+- [advanced-security-enforcer](https://github.com/zkoppert/advanced-security-enforcer) - A GitHub action for organizations that enables advanced security code scanning on all new repos
+
 
 ## CodeQL Samples
-- [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL inside a container sample
-- [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - CI Integration Pipeline Samples
+- [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
 - [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
 
 ## CodeQL Configuration Documentation
