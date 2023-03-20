@@ -13,6 +13,7 @@
 
 ## CodeQL Sharing (Bunldles + Packs)
 - [codeql-bundle-action](https://github.com/advanced-security/codeql-bundle-action) - Action to retrofit a CodeQL bundle with additional queries, libraries, and customizations
+- [codeql-bunldle](https://github.com/rvermeulen/codeql-bundle) - CLI to build a custom CodeQL bundle
 - [gh-tailor](https://github.com/zbazztian/gh-tailor) - A tool for customizing CodeQL packs.
 
 ## CodeQL Queries
