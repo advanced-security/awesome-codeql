@@ -9,7 +9,6 @@
 - [codeql-anywhere](https://github.com/david-wiggs/codeql-anywhere) - Put the power of CodeQL in your pocket, take it with you to any CI 🚀
 
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
-
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
 
 ## CodeQL Sharing (Bunldles + Packs)
