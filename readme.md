@@ -12,6 +12,10 @@
 
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
 
+## CodeQL sharing
+- [codeql-bundle-action](https://github.com/advanced-security/codeql-bundle-action) - Action to retrofit a CodeQL bundle with additional queries, libraries, and customizations
+- [gh-tailor](https://github.com/zbazztian/gh-tailor) - A tool for customizing CodeQL packs.
+
 ## CodeQL Queries
 - [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
 
