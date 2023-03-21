@@ -2,11 +2,14 @@
 
 > A curated list of CodeQL resources.
 
-## CodeQL Installers and  CLI Tooling
-- [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
-- [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan) - GH CLI CodeQL Scan Extension
+## CodeQL Installers
 - [grab_ql](https://github.com/advanced-security/grab_ql) - Grab some/all of CodeQL CLI binary, QL library, VSCode starter workspace, VSCode and VSCode QL extension
 - [codeql-anywhere](https://github.com/david-wiggs/codeql-anywhere) - Put the power of CodeQL in your pocket, take it with you to any CI 🚀
+
+## CodeQL CLI Tooling
+- [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
+- [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan) - GH CLI CodeQL Scan Extension
+- [gh-mrva](https://github.com/pwntester/gh-mrva) - Multi-repo variant analysis CLI support
 
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
