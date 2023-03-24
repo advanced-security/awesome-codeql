@@ -17,14 +17,15 @@
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
 
-## CodeQL Sharing (Bunldles + Packs)
+## CodeQL Sharing Tooling (Bunldles + Packs)
 - [codeql-bundle-action](https://github.com/advanced-security/codeql-bundle-action) - Action to retrofit a CodeQL bundle with additional queries, libraries, and customizations
 - [codeql-bunldle](https://github.com/rvermeulen/codeql-bundle) - CLI to build a custom CodeQL bundle
 - [gh-tailor](https://github.com/zbazztian/gh-tailor) - A tool for customizing CodeQL packs.
 
-## CodeQL Queries
+## CodeQL Queries/Bundles
 - [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
 - [codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
+- [codeql-coding-standards-bundle-releases](https://github.com/advanced-security/codeql-coding-standards-bundle-releases) - CodeQL bundles containing the CodeQL Coding Standards queries
 
 ## CodeQL Query Suites
 - [Only Critical Queries sample .qls](https://github.com/zbazztian/only-critical-queries/blob/main/.github/critical-alternative.qls)
@@ -46,6 +47,7 @@
 - [edit-sarif](https://github.com/aegilops/edit_sarif/) - edit SARIF file to add tags
 - [codeql-debug](https://github.com/zbazztian/codeql-debug) - Add this action to an existing CodeQL analysis workflow to generate an html report
 - [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning
+- [dismiss-alerts](https://github.com/advanced-security/dismiss-alerts) - Dismisses GitHub Code Scanning alerts from `//codeql[supress reason]` style comments on the default branch
 
 ## CodeQL SARIF 
 - [Microsoft SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer) - Visual Studio Static Analysis Results Interchange Format (SARIF) log file viewer
