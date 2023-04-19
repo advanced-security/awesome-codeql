@@ -73,7 +73,7 @@
 - [CodeQL Language Guide](https://codeql.github.com/docs/codeql-language-guides)
 - [QL Language reference](https://codeql.github.com/docs/ql-language-reference)
 - [CodeQL Standard Libraries](https://codeql.github.com/codeql-standard-libraries)
-- [CodeQL Query Help] (https://codeql.github.com/codeql-query-help)
+- [CodeQL Query Help](https://codeql.github.com/codeql-query-help)
 - [Full CodeQL Documentation](https://codeql.github.com/docs/)
 
 
