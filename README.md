@@ -16,6 +16,8 @@
 
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
+- [GitHub Security Lab Packages](https://github.com/orgs/githubsecuritylab/packages)
+- [TrailOfBits Packages](https://github.com/orgs/trailofbits/packages?ecosystem=all&q=repo%3Atrailofbits%2Fcodeql-queries)
 
 ## CodeQL Sharing Tooling (Bunldles + Packs)
 - [codeql-bundle-action](https://github.com/advanced-security/codeql-bundle-action) - Action to retrofit a CodeQL bundle with additional queries, libraries, and customizations
@@ -26,6 +28,8 @@
 - [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
 - [codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
 - [codeql-coding-standards-bundle-releases](https://github.com/advanced-security/codeql-coding-standards-bundle-releases) - CodeQL bundles containing the CodeQL Coding Standards queries
+- [GitHub Security Lab CodeQL-Community-Packs](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs] - Collection of community-driven CodeQL query, library and extension packs
+- Trail of Bits - [codeql-queries](https://github.com/trailofbits/codeql-queries) - CodeQL queries developed by Trail of Bits
 
 ## CodeQL Query Suites
 - [Only Critical Queries sample .qls](https://github.com/zbazztian/only-critical-queries/blob/main/.github/critical-alternative.qls)
