@@ -45,9 +45,11 @@
 - [set-codeql-language-matrix](https://github.com/advanced-security/set-codeql-language-matrix) - Automatically set the CodeQL matrix job using the languages in your repository.
 - [filter-sarif](https://github.com/advanced-security/filter-sarif) - GitHub Action for filtering Code Scanning alerts by path and id
 - [edit-sarif](https://github.com/aegilops/edit_sarif/) - edit SARIF file to add tags
+- [sarif-toolkit](https://github.com/advanced-security/sarif-toolkit/blob/main/submodules/) - Allows users to split up SARIF files that use submodules into multiple SARIF files that are then published to there appropriate repositories.
 - [codeql-debug](https://github.com/zbazztian/codeql-debug) - Add this action to an existing CodeQL analysis workflow to generate an html report
 - [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning
 - [dismiss-alerts](https://github.com/advanced-security/dismiss-alerts) - Dismisses GitHub Code Scanning alerts from `//codeql[supress reason]` style comments on the default branch
+
 
 ## CodeQL SARIF 
 - [Microsoft SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer) - Visual Studio Static Analysis Results Interchange Format (SARIF) log file viewer
@@ -60,6 +62,7 @@
 
 ## CodeQL Enforcement
 - [advanced-security-enforcer](https://github.com/zkoppert/advanced-security-enforcer) - A GitHub action for organizations that enables advanced security code scanning on all new repos
+- [codeql-selective-analysis](https://github.com/octodemo/codeql-selective-analysis) - Make CodeQL a required status check for Pull Requests, but to skip the analysis in the case that only a certain subset of files are modified
 
 ## CodeQL Samples
 - [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
