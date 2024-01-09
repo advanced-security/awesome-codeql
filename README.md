@@ -16,15 +16,18 @@
 
 ## CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
-- [GitHub Security Lab community packs](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs) - Collection of community-driven CodeQL query, library and extension packs
-- [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
-- [codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
-- [codeql-coding-standards-bundle-releases](https://github.com/advanced-security/codeql-coding-standards-bundle-releases) - CodeQL bundles containing the CodeQL Coding Standards queries
+- [GitHub Security Lab community](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs) - Collection of community-driven CodeQL query, library and extension [packages](https://github.com/orgs/githubsecuritylab/packages)
+- Trail of Bits - [codeql-queries](https://github.com/trailofbits/codeql-queries) - CodeQL queries and [packs](https://github.com/orgs/trailofbits/packages?ecosystem=all&q=repo%3Atrailofbits%2Fcodeql-queries) developed by Trail of Bits
+- [GitHub codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
 
 ## CodeQL Tooling (Bundles + Packs)
 - [codeql-bundle-action](https://github.com/advanced-security/codeql-bundle-action) - Action to retrofit a CodeQL bundle with additional queries, libraries, and customizations
 - [codeql-bunldle](https://github.com/rvermeulen/codeql-bundle) - CLI to build a custom CodeQL bundle
 - [gh-tailor](https://github.com/zbazztian/gh-tailor) - A tool for customizing CodeQL packs.
+
+## CodeQL Queries/Bundles
+- [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
+- [GitHub codeql-coding-standards-bundle-releases](https://github.com/advanced-security/codeql-coding-standards-bundle-releases) - CodeQL bundles containing the CodeQL Coding Standards queries
 
 ## CodeQL Query Suites
 - [Only Critical Queries sample .qls](https://github.com/zbazztian/only-critical-queries/blob/main/.github/critical-alternative.qls)
@@ -50,7 +53,6 @@
 - [adjust-cvss](https://github.com/advanced-security/adjust-cvss) - Adjust the severity of the CVSS score assigned to a result in SARIF file
 - [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning (deprecated - now [supported by CodeQL](https://github.blog/changelog/2023-09-01-code-scanning-with-codeql-improves-support-for-java-codebases-that-use-project-lombok/))
 
-
 ## CodeQL SARIF 
 - [Visual Studio SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer) - Visual Studio Static Analysis Results Interchange Format (SARIF) log file viewer
 - [VSCode SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=MS-SarifVSCode.sarif-viewer) - Adds support for viewing SARIF logs in Visual Studio Code
@@ -71,7 +73,7 @@
 - [codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code
 
 ## CodeQL Samples
-- [sample-pipeline-files](https://github.com/kllund/sample-pipeline-files) - This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
+- [sample-pipeline-files](https://github.com/advanced-security/sample-codeql-pipeline-config) - This repository contains pipeline files for various CI/CD systems (AWS CodeBuild, Azure Devops, CircleCI, DroneCI, Jenkins, Tekton, Travis), illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
 - [Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
 
 ## CodeQL Configuration Documentation
@@ -84,7 +86,6 @@
 - [CodeQL Standard Libraries](https://codeql.github.com/codeql-standard-libraries)
 - [CodeQL Query Help](https://codeql.github.com/codeql-query-help)
 - [Full CodeQL Documentation](https://codeql.github.com/docs/)
-
 
 ## Contribute
 
