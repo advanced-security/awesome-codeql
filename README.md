@@ -9,6 +9,7 @@
 ## CodeQL Installers
 - [grab_ql](https://github.com/advanced-security/grab_ql) - Grab some/all of CodeQL CLI binary, QL library, VSCode starter workspace, VSCode and VSCode QL extension
 - [codeql-anywhere](https://github.com/david-wiggs/codeql-anywhere) - Put the power of CodeQL in your pocket, take it with you to any CI 🚀
+- [codeql-jupyter-kernel](https://github.com/GitHubSecurityLab/codeql-jupyter-kernel) - Jupyter Kernel for CodeQL
 
 ## CodeQL CLI Tooling
 - [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
