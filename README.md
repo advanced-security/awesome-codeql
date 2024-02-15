@@ -71,6 +71,7 @@
 - [codeql-docker](https://github.com/advanced-security/codeql-docker) - CodeQL Docker image
 - [codeql-container](https://github.com/microsoft/codeql-container) - Prepackaged and precompiled github codeql container for rapid analysis, deployment and development.
 - [codeql_container_example](https://github.com/advanced-security/codeql_container_example) - Example showing CodeQL to scan containerized applications in GitHub Actions.
+- [codeql-container-builds](https://some-natalie.dev/blog/codeql-container-builds/) - Blog walking through the complexities of implementing containerized CodeQL workloads sprinkled with bits of Kubernetes wisdom.
 
 ## CodeQL Enforcement
 - [advanced-security-enforcer](https://github.com/zkoppert/advanced-security-enforcer) - A GitHub action for organizations that enables advanced security code scanning on all new repos
