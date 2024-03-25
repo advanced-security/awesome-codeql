@@ -51,7 +51,6 @@
 ## CodeQL Actions Helpers
 - [set-codeql-language-matrix](https://github.com/advanced-security/set-codeql-language-matrix) - Automatically set the CodeQL matrix job using the languages in your repository.
 - [filter-sarif](https://github.com/advanced-security/filter-sarif) - GitHub Action for filtering Code Scanning alerts by path and id
-- [edit-sarif](https://github.com/aegilops/edit_sarif/) - edit SARIF file to add tags
 - [sarif-toolkit](https://github.com/advanced-security/sarif-toolkit/blob/main/submodules/) - Allows users to split up SARIF files that use submodules into multiple SARIF files that are then published to there appropriate repositories.
 - [codeql-debug](https://github.com/zbazztian/codeql-debug) - Add this action to an existing CodeQL analysis workflow to generate an html report
 - [dismiss-alerts](https://github.com/advanced-security/dismiss-alerts) - Dismisses GitHub Code Scanning alerts from `//codeql[supress reason]` style comments on the default branch
