@@ -77,7 +77,8 @@
 - [codeql-selective-analysis](https://github.com/octodemo/codeql-selective-analysis) - Make CodeQL a required status check for Pull Requests, but to skip the analysis in the case that only a certain subset of files are modified
 
 ## CodeQL Extractors
-- [codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code
+- [codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code ( Terraform / HCL, JSON, YAML, Container files, Bicep )
+- [codeql-kaleidoscope](https://github.com/aibaars/codeql-kaleidoscope/) - CodeQL for LLVM Kaleidoscope ([AST/CFG/SSA/Dataflow in separate commits](https://github.com/aibaars/codeql-kaleidoscope/commits/main/)) 
 - [Powershell Extractor](https://github.com/microsoft/codeql/blob/main/powershell/README.md) - CodeQL extractor, sample queries, and tools for Powershell
 
 ## CodeQL Samples
