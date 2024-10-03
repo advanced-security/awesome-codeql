@@ -79,6 +79,7 @@
 ## CodeQL Extractors
 - [codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code ( Terraform / HCL, JSON, YAML, Container files, Bicep )
 - [codeql-kaleidoscope](https://github.com/aibaars/codeql-kaleidoscope/) - CodeQL for LLVM Kaleidoscope ([AST/CFG/SSA/Dataflow in separate commits](https://github.com/aibaars/codeql-kaleidoscope/commits/main/)) 
+- [Powershell Extractor](https://github.com/microsoft/codeql/blob/main/powershell/README.md) - CodeQL extractor, sample queries, and tools for Powershell
 
 ## CodeQL Samples
 - [sample-pipeline-files](https://github.com/advanced-security/sample-codeql-pipeline-config) - This repository contains pipeline files for various CI/CD systems (AWS CodeBuild, Azure Devops, CircleCI, DroneCI, Jenkins, Tekton, Travis), illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
