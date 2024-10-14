@@ -88,13 +88,25 @@
 ## CodeQL Configuration Documentation
 - [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
 
-## CodeQL Query Writing Documentation
+## CodeQL Query Writing
+
+### Documentation
 - [How to write CodeQL Queries](https://codeql.github.com/docs/writing-codeql-queries)
 - [CodeQL Language Guide](https://codeql.github.com/docs/codeql-language-guides)
 - [QL Language reference](https://codeql.github.com/docs/ql-language-reference)
 - [CodeQL Standard Libraries](https://codeql.github.com/codeql-standard-libraries)
 - [CodeQL Query Help](https://codeql.github.com/codeql-query-help)
 - [Full CodeQL Documentation](https://codeql.github.com/docs/)
+
+### Blogs
+- [CodeQL zero to hero series](https://github.blog/developer-skills/github/codeql-zero-to-hero-part-1-the-fundamentals-of-static-analysis-for-vulnerability-research/)
+
+### YouTube learning
+- [Find bugs in your code with CodeQL](https://www.youtube.com/live/y_-pIbsr7jc?&t=310)
+- [Finding security vulnerabilities in JavaScript with CodeQL](https://www.youtube.com/watch?v=pYzfGaLTqC0)
+- [Finding security vulnerabilities in Java with CodeQL](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
+- [Finding security vulnerabilities in C/C++ with CodeQL](https://www.youtube.com/watch?v=eAjecQrfv3o&t=98s)
+- [CodeQL as an Audit Oracle](https://www.youtube.com/watch?v=-bJ2Ioi7Icg&t=8s)
 
 ## Contribute
 
