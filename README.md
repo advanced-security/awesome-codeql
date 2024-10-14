@@ -106,7 +106,7 @@
 - [Finding security vulnerabilities in JavaScript with CodeQL](https://www.youtube.com/watch?v=pYzfGaLTqC0)
 - [Finding security vulnerabilities in Java with CodeQL](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
 - [Finding security vulnerabilities in C/C++ with CodeQL](https://www.youtube.com/watch?v=eAjecQrfv3o&t=98s)
-- [CodeQL as an Audit Oracle](https://www.youtube.com/watch?v=-bJ2Ioi7Icg)
+- [CodeQL as an Audit Oracle](https://www.youtube.com/watch?v=-bJ2Ioi7Icg&t=8s)
 
 ## Contribute
 
