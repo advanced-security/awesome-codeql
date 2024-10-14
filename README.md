@@ -102,7 +102,7 @@
 - [CodeQL zero to hero series](https://github.blog/developer-skills/github/codeql-zero-to-hero-part-1-the-fundamentals-of-static-analysis-for-vulnerability-research/)
 
 ### YouTube learning
-- [Find bugs in your code with CodeQL](https://www.youtube.com/watch?v=y_-pIbsr7jc&t=14s)
+- [Find bugs in your code with CodeQL](https://www.youtube.com/live/y_-pIbsr7jc?&t=310)
 - [Finding security vulnerabilities in JavaScript with CodeQL](https://www.youtube.com/watch?v=pYzfGaLTqC0)
 - [Finding security vulnerabilities in Java with CodeQL](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
 - [Finding security vulnerabilities in C/C++ with CodeQL](https://www.youtube.com/watch?v=eAjecQrfv3o)
