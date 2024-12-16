@@ -14,7 +14,7 @@
 ## CodeQL CLI Tooling
 - [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
 - [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan) - GH CLI CodeQL Scan Extension
-- [gh-mrva](https://github.com/pwntester/gh-mrva) - Multi-repo variant analysis CLI support
+- [gh-mrva](https://github.com/GitHubSecurityLab/gh-mrva) - Multi-repo variant analysis CLI support
 
 ## CodeQL Customizations
 - [codeql-summarize](https://github.com/advanced-security/codeql-summarize) - CodeQL Summary Generator to generate Models as Data (MaD) from CodeQL databases.
