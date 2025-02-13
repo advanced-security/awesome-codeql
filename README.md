@@ -92,6 +92,7 @@ Run queries and detect vulnerabilities in your smart contracts using CodeQL-Soli
 - [Custom Configuration File](https://gist.github.com/bthomas2622/e520926b88ebb93e79b30f7f32ed4849)
 
 ## CodeQL Query Writing
+- [ReadMe Project](https://github.com/readme/guides/custom-codeql-queries) - A beginner’s guide to running and managing custom CodeQL queries
 
 ### Documentation
 - [How to write CodeQL Queries](https://codeql.github.com/docs/writing-codeql-queries)
