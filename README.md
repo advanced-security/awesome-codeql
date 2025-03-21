@@ -103,7 +103,8 @@ Run queries and detect vulnerabilities in your smart contracts using CodeQL-Soli
 - [Full CodeQL Documentation](https://codeql.github.com/docs/)
 
 ### Blogs
-- [CodeQL zero to hero series](https://github.blog/developer-skills/github/codeql-zero-to-hero-part-1-the-fundamentals-of-static-analysis-for-vulnerability-research/)
+- [GitHub - CodeQL zero to hero series](https://github.blog/developer-skills/github/codeql-zero-to-hero-part-1-the-fundamentals-of-static-analysis-for-vulnerability-research/)
+- [GitHub - How GitHub uses CodeQL to secure GitHub](https://github.blog/engineering/how-github-uses-codeql-to-secure-github/)
 
 ### YouTube learning
 - [Find bugs in your code with CodeQL](https://www.youtube.com/live/y_-pIbsr7jc?&t=310)
