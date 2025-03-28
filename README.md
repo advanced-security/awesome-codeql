@@ -58,7 +58,8 @@
 - [adjust-cvss](https://github.com/advanced-security/adjust-cvss) - Adjust the severity of the CVSS score assigned to a result in SARIF file
 - [codeql-sarif-security-standard-annotator](https://github.com/advanced-security/codeql-sarif-security-standard-annotator) - Add an `owasp-top10-2021` tag to relevant results
 - [delombok](https://github.com/advanced-security/delombok) - Delombok Java Code for analysis with Code Scanning (deprecated - now [supported by CodeQL](https://github.blog/changelog/2023-09-01-code-scanning-with-codeql-improves-support-for-java-codebases-that-use-project-lombok/))
-- [badge-generator](https://github.com/MichaelCurrin/badge-generator) - [![CodeQL](https://github.com/MichaelCurrin/badge-generator/workflows/CodeQL/badge.svg)](https://github.com/MichaelCurrin/badge-generator/actions?query=workflow%3ACodeQL "Code quality workflow status") Magically generate Markdown badges for your docs 🛡️ 🦡 🧙 
+- [badge-generator](https://github.com/MichaelCurrin/badge-generator) - [![CodeQL](https://github.com/MichaelCurrin/badge-generator/workflows/CodeQL/badge.svg)](https://github.com/MichaelCurrin/badge-generator/actions?query=workflow%3ACodeQL "Code quality workflow status") Magically generate Markdown badges for your docs 🛡️ 🦡 🧙
+- [monorepo-code-scanning-action](https://github.com/advanced-security/monorepo-code-scanning-action) - Focus SAST scans (with CodeQL) on just the changed parts of your monorepo, split up as you define
 
 ## CodeQL SARIF 
 - [Visual Studio SARIF Viewer](https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer) - Visual Studio Static Analysis Results Interchange Format (SARIF) log file viewer
