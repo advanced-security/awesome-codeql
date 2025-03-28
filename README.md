@@ -83,6 +83,7 @@
 - [Powershell Extractor](https://github.com/microsoft/codeql/blob/main/powershell/README.md) - CodeQL extractor, sample queries, and tools for Powershell
 - [CyScout Solidity Extractor](https://github.com/CoinFabrik/CyScout/tree/main/solidity/codeql) - 
 Run queries and detect vulnerabilities in your smart contracts using CodeQL-Solidity
+- [cobol-codeql](https://github.com/krisds/cobol-codeql) - Archive of CodeQL support for COBOL (This is a one-off release of code for supporting analysis of COBOL programs using QL. The release of this code does not imply any intention to support it in the future.)
 
 ## CodeQL Samples
 - [sample-pipeline-files](https://github.com/advanced-security/sample-codeql-pipeline-config) - This repository contains pipeline files for various CI/CD systems (AWS CodeBuild, Azure Devops, CircleCI, DroneCI, Jenkins, Tekton, Travis), illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning
