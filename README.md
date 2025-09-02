@@ -39,6 +39,9 @@
 - [codeql-bunldle](https://github.com/rvermeulen/codeql-bundle) - CLI to build a custom CodeQL bundle
 - [gh-tailor](https://github.com/zbazztian/gh-tailor) - A tool for customizing CodeQL packs.
 
+## CodeQL Libraries
+- [codeql-qtil](https://github.com/advanced-security/codeql-qtil) - A library with a wide variety of handy CodeQL utilities, from simple to complex.
+
 ## CodeQL Queries/Bundles
 
 - [Microsoft solorigate queries](https://www.microsoft.com/en-us/security/blog/2021/02/25/microsoft-open-sources-codeql-queries-used-to-hunt-for-solorigate-activity/)
@@ -54,13 +57,14 @@
 
 - [CodeQL Build Failure Troubleshooting](https://github.com/advanced-security/advanced-security-material/tree/main/troubleshooting/codeql-builds)
 - [GitHub SARIF Upload Troubleshooting](https://github.com/advanced-security/advanced-security-material/blob/main/troubleshooting/sarif-upload/troubleshooting.md)
-- [CodeQL Coding Standards - Hazard and risk analysis](https://github.com/github/codeql-coding-standards/blob/main/docs/user_manual.md#hazard-and-risk-analysis)
+- [CodeQL Coding Standards - Hazard and risk analysis](https://github.com/github/codeql-coding-standards/blob/main/docs/user_manual.md#hazard-and-risk-analysis) 
 
-## CodeQL Actions Samples
+## CodeQL Monorepo Actions Samples
 
 - [parallel-code-scanning](https://github.com/dassencio/parallel-code-scanning) - An example of a GitHub Actions workflow showing how code scanning with CodeQL can be parallelized on monorepos.
 - [multi-lang-monorepo](https://github.com/thedave42/multi-lang-monorepo) - A repo that demonstrates using an Actions workflow Job matrix to run parallel CodeQL scans on applications in a monorepo.
-
+- [sample-javascript-monorepo](https://github.com/advanced-security/sample-javascript-monorepo) - Detached fork of babel/babel to use as a TypeScript monorepo sample with 150+ packages using the [monorepo-code-scanning-action](https://github.com/advanced-security/monorepo-code-scanning-action)
+  
 ## CodeQL Actions Helpers
 
 - [set-codeql-language-matrix](https://github.com/advanced-security/set-codeql-language-matrix) - Automatically set the CodeQL matrix job using the languages in your repository.
@@ -97,13 +101,15 @@
 
 ## CodeQL Extractors
 
-- [CodeQL IaC](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code (Terraform / HCL, JSON, YAML, Container files, Bicep )
-- [CodeQL Bicep](https://github.com/GitHubSecurityLab/codeql-extractor-bicep) - CodeQL Extractor, Library, and Queries for Bicep
-- [CodeQL Kaleidoscope](https://github.com/aibaars/codeql-kaleidoscope/) - CodeQL for LLVM Kaleidoscope ([AST/CFG/SSA/Dataflow in separate commits](https://github.com/aibaars/codeql-kaleidoscope/commits/main/)) 
+- [codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code ( Terraform / HCL, JSON, YAML, Container files, Bicep )
+- [codeql-extractor-bicep](https://github.com/GitHubSecurityLab/codeql-extractor-bicep) - CodeQL Extractor for Bicep Configurations
+- [codeql-kaleidoscope](https://github.com/aibaars/codeql-kaleidoscope/) - CodeQL for LLVM Kaleidoscope ([AST/CFG/SSA/Dataflow in separate commits](https://github.com/aibaars/codeql-kaleidoscope/commits/main/)) 
 - [Powershell Extractor](https://github.com/microsoft/codeql/blob/main/powershell/README.md) - CodeQL extractor, sample queries, and tools for Powershell
-- [CyScout Solidity Extractor](https://github.com/CoinFabrik/CyScout/tree/main/solidity/codeql) - 
-Run queries and detect vulnerabilities in your smart contracts using CodeQL-Solidity
-- [CodeQL COBOL](https://github.com/krisds/cobol-codeql) - Archive of CodeQL support for COBOL (This is a one-off release of code for supporting analysis of COBOL programs using QL. The release of this code does not imply any intention to support it in the future.)
+- [CyScout Solidity Extractor](https://github.com/CoinFabrik/CyScout/tree/main/solidity/codeql) - Run queries and detect vulnerabilities in your smart contracts using CodeQL-Solidity
+- [cobol-codeql](https://github.com/krisds/cobol-codeql) - Archive of CodeQL support for COBOL (This is a one-off release of code for supporting analysis of COBOL programs using QL. The release of this code does not imply any intention to support it in the future.)
+
+## CodeQL Extractor Helpers
+- [codeql-extractor-action](https://github.com/advanced-security/codeql-extractor-action) - specify a CodeQL extractor to be used in your workflows as an author of an Extractor.
 
 ## CodeQL Samples
 
