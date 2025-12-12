@@ -145,7 +145,7 @@ Resources for extending CodeQL, creating packs, and using custom queries.
 
 ### Custom Modeling
 - [codeql-summarize](https://github.com/advanced-security/codeql-summarize) - CodeQL Summary Generator to generate Models as Data (MaD) from CodeQL databases.
-- [GitHub Security Lab models](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs/blob/475fce39f5e80df3bcfc87d53958ca4dad1de603/configs/default.yml#L19-L25)
+- [GitHub Security Lab models](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs/blob/main/configs/default.yml#L19-L25)
 - [Ex: Python Pickle](https://github.com/octodemo/vulnerable-pickle-app/blob/main/custom-queries/python/dangerous-functions.ql) - mapping a custom framework in python
 
 ### CodeQL Queries/Bundles
