@@ -88,7 +88,7 @@ Everything you need to install, run, and view CodeQL results locally or in conta
 - [GitHub Seclab Taskflow Agent](https://github.com/GitHubSecurityLab/seclab-taskflow-agent) - The framework includes a [CodeQL](https://codeql.github.com/) MCP server that can be used for Agentic code review, see the [CVE-2023-2283](https://github.com/GitHubSecurityLab/seclab-taskflow-agent/blob/main/examples/taskflows/CVE-2023-2283.yaml) taskflow for an example of how to have an Agent review C code using a CodeQL database ([demo video](https://www.youtube.com/watch?v=eRSPSVW8RMo)).
 - [GitHub CodeQL Development MCP Server](https://github.com/github/codeql-development-mcp-server) - An MCP server supporting LLM requests for CodeQL development tools and resources.
 - [codeql-development-template](https://github.com/advanced-security/codeql-development-template) - Copilot-native repository template for CodeQL query development. Lowering the barrier to entry for CodeQL development through natural language and GitHub Copilot. A GitHub repository template for building custom CodeQL queries with AI assistance. This template provides a structured environment with prompts, instructions, and workflows designed to guide GitHub Copilot Coding Agent through the complete CodeQL development lifecycle.
-
+- [codeql-mcp](https://github.com/JordyZomer/codeql-mcp) - This project runs a Model Context Protocol (MCP) server that wraps the CodeQL query server. It enables tools like Cursor or AI agents to interact with CodeQL through structured commands and doc search.
 
 ---
 
