@@ -68,6 +68,7 @@ Everything you need to install, run, and view CodeQL results locally or in conta
 - [gh-codeql](https://github.com/github/gh-codeql) - GitHub CLI extension for working with CodeQL
 - [gh-codeql-scan](https://github.com/advanced-security/gh-codeql-scan) - GH CLI CodeQL Scan Extension
 - [gh-mrva](https://github.com/GitHubSecurityLab/gh-mrva) - Multi-repo variant analysis CLI support
+- [mrva](https://github.com/trailofbits/mrva) - Terminal-first approach to CodeQL multi-repo variant analysis
 
 ### CodeQL Containers
 
