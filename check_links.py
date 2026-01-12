@@ -2,13 +2,27 @@
 """
 Link Checker for awesome-codeql repository
 Checks all links in markdown files to ensure they are functional
+
+Dependencies:
+    - Python 3.6+
+    - requests library (install with: pip install requests)
+    
+Usage:
+    python3 check_links.py
 """
 
 import re
 import os
 import sys
 import json
-import requests
+
+try:
+    import requests
+except ImportError:
+    print("Error: 'requests' library is required.")
+    print("Install it with: pip install requests")
+    sys.exit(1)
+
 from typing import List, Dict, Tuple
 from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -105,8 +119,8 @@ class LinkChecker:
                 allow_redirects=True
             )
             
-            # Some servers don't support HEAD, try GET if HEAD fails
-            if response.status_code in [405, 404]:
+            # Some servers don't support HEAD, try GET if HEAD fails with 405
+            if response.status_code == 405:
                 response = self.session.get(
                     url_without_fragment,
                     timeout=TIMEOUT,
@@ -197,7 +211,7 @@ def main():
     md_files = []
     # Use the directory where the script is located as the repository root
     # This makes the script work from any location
-    repo_root = os.path.dirname(os.path.abspath(__file__)) if os.path.dirname(os.path.abspath(__file__)) else os.getcwd()
+    repo_root = os.path.dirname(os.path.abspath(__file__)) or os.getcwd()
     
     for root, dirs, files in os.walk(repo_root):
         # Skip .git directory
