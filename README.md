@@ -137,9 +137,9 @@ Resources for extending CodeQL, creating packs, and using custom queries.
 ### CodeQL [Packs](https://docs.github.com/en/code-security/codeql-cli/using-the-codeql-cli/publishing-and-using-codeql-packs)
 
 - [GitHub-maintained packages](https://github.com/orgs/codeql/packages)
-- [GitHub Security Lab community](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs) - Collection of community-driven CodeQL query, library and extension [packages](https://github.com/orgs/githubsecuritylab/packages). Blog: [Announcing CodeQL Community Packs](https://github.blog/security/vulnerability-research/announcing-codeql-community-packs/)
-- Trail of Bits - [codeql-queries](https://github.com/trailofbits/codeql-queries) - CodeQL queries and [packs](https://github.com/orgs/trailofbits/packages?ecosystem=all&q=repo%3Atrailofbits%2Fcodeql-queries) developed by Trail of Bits
-- [GitHub codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
+- [GitHubSecurityLab/CodeQL-Community-Packs](https://github.com/GitHubSecurityLab/CodeQL-Community-Packs) - Collection of community-driven CodeQL query, library and extension [packages](https://github.com/orgs/githubsecuritylab/packages). Blog: [Announcing CodeQL Community Packs](https://github.blog/security/vulnerability-research/announcing-codeql-community-packs/)
+- [trailofbits/codeql-queries](https://github.com/trailofbits/codeql-queries) - CodeQL queries and [packs](https://github.com/orgs/trailofbits/packages?ecosystem=all&q=repo%3Atrailofbits%2Fcodeql-queries) developed by Trail of Bits
+- [github/codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
 
 ### CodeQL Tooling (Bundles + Packs)
 
@@ -178,7 +178,7 @@ Resources for extending CodeQL, creating packs, and using custom queries.
 - [CoinFabrik/CyScout](https://github.com/CoinFabrik/CyScout/tree/main/solidity/codeql) - CyScout Solidity Extractor: Run queries and detect vulnerabilities in your smart contracts using CodeQL-Solidity
 - [krisds/cobol-codeql](https://github.com/krisds/cobol-codeql) - Archive of CodeQL support for COBOL (This is a one-off release of code for supporting analysis of COBOL programs using QL. The release of this code does not imply any intention to support it in the future.)
 - [advanced-security/codeql-extractor-action](https://github.com/advanced-security/codeql-extractor-action) - specify a CodeQL extractor to be used in your workflows as an author of an Extractor.
-
+- [advanced-security/codeql-sap-js](https://github.com/advanced-security/codeql-sap-js) - CodeQL extractor/queries/models for SAP JavaScript frameworks CAP, UI5 and XSJS
 
 ## Troubleshooting
 
