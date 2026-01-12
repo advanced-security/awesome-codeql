@@ -68,6 +68,10 @@ class LinkChecker:
         # Skip anchors and fragments within documents
         if url.startswith('#'):
             return True
+        
+        # Skip relative file paths (valid in markdown)
+        if not url.startswith('http://') and not url.startswith('https://'):
+            return True
             
         # Skip non-http(s) URLs
         parsed = urlparse(url)

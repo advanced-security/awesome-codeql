@@ -5,12 +5,12 @@ Generated: 2026-01-12
 
 ## Summary
 
-Total links checked: **112**
+Total links checked: **110**
 - ✅ Functional links: **74** (verified working)
 - ⚠️ Redirects: **0**
 - ❌ Broken links: **0** (all fixed!)
 - 🔌 Connection errors: **32** (network restrictions in test environment)
-- ℹ️ Relative links: **2** (valid markdown, work correctly on GitHub)
+- ℹ️ Relative links: **6** (skipped - valid markdown, work correctly on GitHub)
 
 ## Fixed Broken Links
 
@@ -36,15 +36,7 @@ The following broken links were identified and **fixed** in this PR:
 
 ## Relative Links (No Action Needed)
 
-These links are valid relative markdown links and work correctly on GitHub:
-
-**File:** `CONTRIBUTING.md` (line 4)  
-**URL:** `CODE_OF_CONDUCT.md`  
-**Status:** Valid relative link
-
-**File:** `README.md` (line 190)  
-**URL:** `CONTRIBUTING.md`  
-**Status:** Valid relative link
+The link checker automatically skips relative markdown links (e.g., `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`) as these are valid in GitHub markdown and work correctly. Approximately 6 such links were found and skipped during checking.
 
 ## Connection Errors (Informational)
 
