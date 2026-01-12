@@ -195,7 +195,9 @@ class LinkChecker:
 def main():
     # Find all markdown files
     md_files = []
-    repo_root = '/home/runner/work/awesome-codeql/awesome-codeql'
+    # Use the directory where the script is located as the repository root
+    # This makes the script work from any location
+    repo_root = os.path.dirname(os.path.abspath(__file__)) if os.path.dirname(os.path.abspath(__file__)) else os.getcwd()
     
     for root, dirs, files in os.walk(repo_root):
         # Skip .git directory
