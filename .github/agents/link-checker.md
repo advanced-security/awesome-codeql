@@ -17,8 +17,9 @@ When invoked to check links in this repository:
    - Plain URLs: `https?://...`
 
 3. **Validate links**: For each unique URL:
-   - Use `curl -I -L --max-time 10` to check the HTTP status
-   - Skip relative links (e.g., `README.md`, `#anchors`) as they are valid markdown
+   - Use `curl -I -L --max-time 10 -A "Mozilla/5.0 (compatible; LinkChecker/1.0)"` to check the HTTP status
+     - The `-A` flag sets a User-Agent header to avoid being blocked by servers that reject requests without one
+   - Skip relative links (e.g., `README.md`, `#anchors`) but optionally verify these local files exist in the repository
    - Track the following:
      - ✅ Working links (HTTP 200-299)
      - ❌ Broken links (HTTP 404)
@@ -49,8 +50,11 @@ When invoked to check links in this repository:
 # Find all markdown files
 find . -name "*.md" -not -path "./.git/*"
 
-# Extract and check a URL
-curl -I -L --max-time 10 https://example.com/page
+# Extract and check a URL with User-Agent header
+curl -I -L --max-time 10 -A "Mozilla/5.0 (compatible; LinkChecker/1.0)" https://example.com/page
+
+# Optionally verify local markdown file exists
+test -f ./CONTRIBUTING.md && echo "File exists" || echo "Broken internal link"
 ```
 
 ### Common Issues
@@ -88,6 +92,8 @@ Recommendations:
 ## Notes
 
 - Focus only on HTTP/HTTPS links; skip `mailto:`, `ftp:`, and other schemes
-- Relative markdown links (e.g., `[Guide](CONTRIBUTING.md)`) are valid and should be skipped
+- Relative markdown links (e.g., `[Guide](CONTRIBUTING.md)`) should be skipped from HTTP validation
+- Optionally verify that relative links point to files that exist in the repository to prevent broken internal navigation
+- Always use a User-Agent header with curl (`-A` flag) to avoid being blocked by servers
 - Some domains may be blocked in restricted environments; connection errors don't always mean broken links
 - Prioritize fixing genuine 404 errors over connection errors
