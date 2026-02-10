@@ -20,6 +20,8 @@ Resources for learning CodeQL, from beginner guides to official documentation.
 
 ### CodeQL Getting Started and Guides (along side the [official docs](https://codeql.github.com/docs/))
 
+- [skills/introduction-to-codeql](https://github.com/skills/introduction-to-codeql) - Interactive GitHub Skills course teaching how to enable code scanning, review alerts, and fix vulnerabilities using CodeQL
+- [skills/secure-code-game](https://github.com/skills/secure-code-game) - Hands-on security training game where you identify and fix vulnerabilities in real code across multiple programming languages
 - [CodeQL Learning Catalog](https://codeql-learning-catalog.github.com/) - The CodeQL Learning Catalog is a resource dedicated providing detailed CodeQL learning resources. The Catalog contains workshops, recordings, and learning paths for improving your knowledge and skill in using CodeQL.
 - [GitHub Security Lab](https://securitylab.github.com/get-involved/) - From trying out CodeQL to secure your own code to collecting bug bounties by securing others', here are a few ways we can keep the world's software safe, together.
 - [testing-handbook](https://github.com/trailofbits/testing-handbook) - The [Trail of Bits Testing Handbook](https://appsec.guide/docs/static-analysis/codeql/) is a resource that guides developers and security professionals in configuring, optimizing, and automating many of the static and dynamic analysis tools used at Trail of Bits.
