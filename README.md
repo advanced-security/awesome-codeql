@@ -144,6 +144,7 @@ Resources for extending CodeQL, creating packs, and using custom queries.
 - [trailofbits/codeql-queries](https://github.com/trailofbits/codeql-queries) - CodeQL queries and [packs](https://github.com/orgs/trailofbits/packages?ecosystem=all&q=repo%3Atrailofbits%2Fcodeql-queries) developed by Trail of Bits
 - [github/codeql-coding-standards](https://github.com/github/codeql-coding-standards) - This repository contains CodeQL queries and libraries which support various Coding Standards. (AUTOSAR C++, CERT-C++,CERT C, MISRA C)
 - [green-code-initiative/green-codeql-queries](Green-codeql-queries) - This repository contains CodeQL queries to help build sustenable code. 
+- [chromium/chromium](https://source.chromium.org/chromium/chromium/src/+/main:tools/codeql/queries/;l=1) - [Finding Bugs in Chrome with CodeQL](https://bughunters.google.com/blog/finding-bugs-in-chrome-with-codeql)
 
 ### CodeQL Tooling (Bundles + Packs)
 
