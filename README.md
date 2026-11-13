@@ -176,7 +176,7 @@ Resources for extending CodeQL, creating packs, and using custom queries.
 
 
 ### CodeQL Extractors
-
+- [peter-villadsen/codeql-ada] (https://github.com/peter-villadsen/codeql-ada) - ) - Ada extractor built on AdaCore's Libadalang, with a database schema, a QL library (control flow, data flow, taint tracking) and a set of useful queries. It needs no build or compiler.
 - [advanced-security/codeql-extractor-iac](https://github.com/advanced-security/codeql-extractor-iac) - CodeQL Extractors, Library, and Queries for Infrastructure as Code ( Terraform / HCL, JSON, YAML, Container files, Bicep )
 - [codeql-extractor-bicep](https://github.com/GitHubSecurityLab/codeql-extractor-bicep) - CodeQL Extractor for Bicep Configurations
 - [codeql-kaleidoscope](https://github.com/aibaars/codeql-kaleidoscope/) - CodeQL for LLVM Kaleidoscope ([AST/CFG/SSA/Dataflow in separate commits](https://github.com/aibaars/codeql-kaleidoscope/commits/main/)) 
